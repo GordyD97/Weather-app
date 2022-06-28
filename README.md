@@ -18,6 +18,9 @@ up to five days ahead of the current searched location.
 * Previous search history of cities.
 * Color reactive cards.
 
+### Screen Shot:
+[!Application screen shot](./Images/weather-cap.png)
+
 ### URL
 Deployed: https://gordyd97.github.io/Weather-app/
 
