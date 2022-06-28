@@ -10,7 +10,7 @@ var currentCity;
 // use Open Weather 'One Call API' to get weather based on city coordinates
 function getWeather(data) {
 
-    var requestUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${data.lat}&lon=${data.lon}&exclude=minutely,hourly,alerts&units=metric&appid=${APIkey}`
+    var requestUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${data.lat}&lon=${data.lon}&exclude=minutely,hourly,alerts&units=imperial&appid=${APIkey}`
     fetch(requestUrl)
         .then(function (response) {
             return response.json();
@@ -48,7 +48,7 @@ function getWeather(data) {
             // get current wind speed and display
             var currentCityWind = data.current.wind_speed;
             var currentWindEl = $('<p>')
-            currentWindEl.text(`Wind: ${currentCityWind} KPH`)
+            currentWindEl.text(`Wind: ${currentCityWind} MPH`)
             currentConditionsEl.append(currentWindEl);
 
             // get current humidity and display
