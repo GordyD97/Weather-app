@@ -19,7 +19,7 @@ up to five days ahead of the current searched location.
 * Color reactive cards.
 
 ### Screen Shot:
-[Application screen shot](./Images/weather-cap.png)
+[Application screen shot](.assets/images/weather-cap.PNG)
 
 ### URL
 Deployed: https://gordyd97.github.io/Weather-app/
