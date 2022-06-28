@@ -42,7 +42,7 @@ function getWeather(data) {
             // get current temp data and display
             var currentCityTemp = data.current.temp;
             var currentTempEl = $('<p>')
-            currentTempEl.text(`Temp: ${currentCityTemp}°C`)
+            currentTempEl.text(`Temp: ${currentCityTemp}°F`)
             currentConditionsEl.append(currentTempEl);
 
             // get current wind speed and display
