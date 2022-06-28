@@ -15,8 +15,11 @@ up to five days ahead of the current searched location.
 ### Features:
 * Five day forecast
 * Weather icons displaying the current weather.
-* Previouis search history of cities.
+* Previous search history of cities.
 * Color reactive cards.
+
+### URL
+Deployed: https://gordyd97.github.io/Weather-app/
 
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
